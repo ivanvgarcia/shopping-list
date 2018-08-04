@@ -1,0 +1,109 @@
+/*Colors
+#3d5afe
+#8187ff
+#0031ca
+#b0bec5
+#e2f1f8
+#808e95
+*/
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Assistant', sans-serif;
+}
+
+button {
+    background-color: #0031ca;
+    color: white;
+    cursor: pointer;
+}
+
+input[type=text] {
+    border: 1px solid #b0bec5;
+    border-radius: 0;
+    -webkit-appearance: none;
+    font-family: 'Assistant', sans-serif;
+}
+
+input:focus {
+    box-shadow: 1px 1px 3px #8187ff;
+}
+
+h1 {
+    font-weight: 100;
+}
+
+.header {
+    background-color: #3d5afe;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+}
+
+.container {
+    margin: 30px auto;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.form button {
+    border: none;
+    align-self: stretch;
+    padding: .4rem 2rem;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.shopping-list {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.buy-list {
+    padding: 0;
+    width: 70%;
+}
+
+li {
+    background: #f1f1f1;
+    font-size: 1.4rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: .5rem;
+    padding-left: .5rem;
+    cursor: pointer;
+    transition: transform .2s ease-in;
+}
+
+li:hover {
+    transform: translateY(3px);
+}
+
+.delete-item {
+    padding: 10px;
+    background: #8187ff;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+}
+
+.delete-item:hover {
+    background-color: #3d5afe;
+}
